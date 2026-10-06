@@ -24,10 +24,10 @@
 
   <!-- Put your site title here -->
   <title>
-    Elias Claeys | Game Development student at Howest Kortrijk, looking for an internship
+    Elias Claeys
   </title>
 
-  <meta name="description" content="Add small description of yourslef.">
+  <meta name="description" content="Elias Claeys | Game Development student at Howest Kortrijk, looking for an internship">
   <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
   <meta name="keywords" content="Put your name, skills and some coding keywords" />
   <link rel="stylesheet" href="index.css" />
@@ -41,10 +41,9 @@
     <div class="row">
       <nav class="nav" role="navigation">
         <ul class="nav__items">
+          <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
           <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-          <!--<li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li>-->
-          <li class="nav__item">
-            <a href="#about" class="nav__link">About</a>
+          <li class="nav__item"><a href="#about" class="nav__link">About</a>
           </li>
         </ul>
       </nav>
@@ -64,6 +63,25 @@
 
   <main role="main">
 
+    <!-- ***** Skills ***** -->
+    <section class="skills" id="skills">
+      <div class="row">
+    <h2>Skills</h2>
+        <ul class="skills__list">
+          <li>C++</li>
+          <li>C#</li>
+          <li>Unity</li>
+          <li>Unreal Engine</li>
+          <li>Python</li>
+          <li>Lua</li>
+          <li>Cmake</li>
+          <li>Firebase</li>
+          <li>GitHub</li>
+          <li>PreForce</li>
+        </ul>
+      </div>
+    </section>
+
     <!-- ***** Work ***** -->
 
     <section class="work" id="work">
@@ -73,271 +91,27 @@
 
           <!-- Each div with the work__box class is a project. -->
 
-          <!-- Revenge of Shinobi -->
-          <div class="work__box">
-            <div class="work__text">
-              <h3>The revenge of Shinobi</h3>
-              <p>
-                Back in 2024, I recreated the first stage of The Revenge of Shinobi for a school project. We were given a custom 
-                C++ game engine and tasked with recreating a 2D game. This was my first major game development project, and it gave 
-                me the opportunity to learn how to build a game from the ground up. The game still has a few mistakes, but it was a 
-                great learning experience and an important step in my development as a programmer. Looking back, I've improved a lot 
-                since then, which makes this project a nice way to see how far I've come.
-              </p>
-              <ul class="work__list">
-                <li>C++</li>
-              </ul>
-            </div>
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                  <li data-target="#myCarousel" data-slide-to="1"></li>
-                  <li data-target="#myCarousel" data-slide-to="2"></li>
-                  <li data-target="#myCarousel" data-slide-to="3"></li>
-                </ol>
-                
-                <div class="carousel-inner">
-                  <div class="item active">
-                    <img src="./images/Project1/1.png">
-                  </div>
-
-                  <div class="item">
-                    <img src="./images/Project1/2.png">
-                  </div>
-
-                  <div class="item">
-                    <img src="./images/Project1/3.png">
-                  </div>
-
-                  <div class="item">
-                    <div class="video-wrapper">
-                      <iframe
-                        src="https://www.youtube.com/embed/fLkxhbenFuk?enablejsapi=1">
-                      </iframe>
-                    </div>
-                  </div>
-
-                  <!-- Left and right controls -->
-                  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                  <span class="arrow">&#10094;</span>
-                  <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                   <span class="arrow">&#10095;</span>
-                    <span class="sr-only">Next</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-          <!-- Ketnet Stad -->
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Ketnet Stad</h3>
-              <p>
-                This project was a prototype developed for Ketnet. The goal was to create a multiplayer experience where children could 
-                interact and play together in a fun and engaging way. We designed a city-building game in which players receive a set amount 
-                of coins each day to purchase buildings and expand their own island. Players could visit their friends islands and there was 
-                also a trading system implemented. During this project, I focused on the multiplayer aspects and learned how to work with 
-                Firebase to support these features. I chose Firebase because of its strong support for Unity, making it well-suited for 
-                integrating real-time functionality into the game. It allowed us to efficiently retrieve and synchronize player data, 
-                enabling smooth interactions between players.
-              </p>
-              <ul class="work__list">
-                <li>C#</li>
-                <li>Uniy</li>
-                <li>Firebase</li>
-              </ul>
-            </div>
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                  <li data-target="#myCarousel" data-slide-to="1"></li>
-                  <li data-target="#myCarousel" data-slide-to="2"></li>
-                  <li data-target="#myCarousel" data-slide-to="3"></li>
-                </ol>
-                
-                <div class="carousel-inner">
-                  <div class="item active">
-                    <img src="./images/Project2/1.png">
-                  </div>
-
-                  <div class="item">
-                    <img src="./images/Project2/2.png">
-                  </div>
-
-                  <div class="item">
-                    <img src="./images/Project2/3.png">
-                  </div>
-
-                  <div class="item">
-                    <div class="video-wrapper">
-                      <iframe
-                        src="https://www.youtube.com/embed/k0tDinp3bJ0?enablejsapi=1">
-                      </iframe>
-                    </div>
-                  </div>
-
-                  <!-- Left and right controls -->
-                  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                  <span class="arrow">&#10094;</span>
-                  <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                   <span class="arrow">&#10095;</span>
-                    <span class="sr-only">Next</span>
-                  </a>
-                </div>
-              </div>
-            </div>
+          <div class="work__grid">
+             <a href="./projects/shinobi.html" class="work__card">
+                <img src="./images/Project1/1.png" alt="Revenge of Shinobi">
+                <span class="work__card-title">Revenge of Shinobi</span>
+              </a>
           
-
-            <!-- Ragdoll soccers -->
-
-            <div class="work__box">
-              <div class="work__text">
-                <h3>Ragdoll Soccers</h3>
-                <p>
-                  This game was developed during a game jam. The themes were “Friendslop,” “Minesweeper,” and “Outgrow Hunger,” 
-                  and we chose to combine the first two. In this multiplayer game, players control ragdoll characters and try 
-                  to score as many goals as possible while avoiding bombs thrown by their opponent. The mix of chaotic movement 
-                  and competitive gameplay created a fun and unpredictable experience. We had a great time developing this project, 
-                  and it placed 13th out of 36 competitors.
-                </p>
-                <ul class="work__list">
-                  <li>C#</li>
-                  <li>Uniy</li>
-                </ul>
-
-                <div class="work__links">
-                  <a href="https://eliasclaeys.itch.io/ragdoll-sockers" target="_blank" class="link__text">
-                    Visit Site <span>&rarr;</span>
-                  </a>
-                  <a href="https://github.com/Jeronimas-Boots/GameJam" title="View Source Code" target="_blank">
-                    <img src="./images/github.svg" class="work__code" alt="GitHub">
-                  </a>
-                </div>
-              </div>
-              <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                  <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                    <li data-target="#myCarousel" data-slide-to="3"></li>
-                    <li data-target="#myCarousel" data-slide-to="4"></li>
-                  </ol>
-                  
-                  <div class="carousel-inner">
-                    <div class="item active">
-                      <img src="./images/Project3/1.png">
-                    </div>
-
-                    <div class="item">
-                      <img src="./images/Project3/2.png">
-                    </div>
-
-                    <div class="item">
-                      <img src="./images/Project3/3.png">
-                    </div>
-
-                    <div class="item">
-                      <img src="./images/Project3/4.png">
-                    </div>
-
-                    <div class="item">
-                      <div class="video-wrapper">
-                        <iframe
-                          src="https://www.youtube.com/embed/DM8LIWro9Ds?enablejsapi=1">
-                        </iframe>
-                      </div>
-                    </div>
-
-                    <!-- Left and right controls -->
-                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                    <span class="arrow">&#10094;</span>
-                    <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                    <span class="arrow">&#10095;</span>
-                      <span class="sr-only">Next</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            
+             <a href="./projects/ketnet.html" class="work__card">
+                <img src="./images/Project2/1.png" alt="Ketnet Stad">
+                <span class="work__card-title">Ketnet Stad</span>
+              </a>
           
-              <!-- SplaShroom -->
+             <a href="./projects/soccer.html" class="work__card">
+                <img src="./images/Project3/1.png" alt="Soccer">
+                <span class="work__card-title">Ragdoll Soccers</span>
+              </a>
 
-              <div class="work__box">
-                <div class="work__text">
-                  <h3>SplaShroom</h3>
-                  <p>
-                    This game was created for a school project, where we were assigned a random team and challenged to 
-                    make a co-op party game. We created something inspired by Splatoon, but with our own twist: gnomes 
-                    and mushrooms. You play as a gnome and compete with your teammates to capture as much terrain as possible 
-                    by painting the ground with mushrooms. Throughout the game, special mushrooms grow across the map. When 
-                    activated, they grant power-ups such as a speed boost or a larger paint blast... adding another layer of 
-                    strategy to the gameplay.
-                  </p>
-                  <ul class="work__list">
-                    <li>C#</li>
-                    <li>Uniy</li>
-                  </ul>
-
-                  <div class="work__links">
-                    <a href="https://faithhondeghem.itch.io/splashroom" target="_blank" class="link__text">
-                      Visit Site <span>&rarr;</span>
-                    </a>
-                  </div>
-                </div>
-                <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                      <li data-target="#myCarousel" data-slide-to="1"></li>
-                      <li data-target="#myCarousel" data-slide-to="2"></li>
-                      <li data-target="#myCarousel" data-slide-to="3"></li>
-                      <li data-target="#myCarousel" data-slide-to="4"></li>
-                    </ol>
-                    
-                    <div class="carousel-inner">
-                      <div class="item active">
-                        <img src="./images/Project4/1.png">
-                      </div>
-
-                      <div class="item">
-                        <img src="./images/Project4/2.png">
-                      </div>
-
-                      <div class="item">
-                        <img src="./images/Project4/3.png">
-                      </div>
-
-                      <div class="item">
-                        <img src="./images/Project4/4.png">
-                      </div>
-
-                      <div class="item">
-                        <div class="video-wrapper">
-                          <iframe
-                            src="https://www.youtube.com/embed/x3OZwJV1Rck?enablejsapi=1">
-                          </iframe>
-                        </div>
-                      </div>
-
-                      <!-- Left and right controls -->
-                      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                      <span class="arrow">&#10094;</span>
-                      <span class="sr-only">Previous</span>
-                      </a>
-                      <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                      <span class="arrow">&#10095;</span>
-                        <span class="sr-only">Next</span>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
+             <a href="./projects/splashroom.html" class="work__card">
+                <img src="./images/Project4/1.png" alt="SplaShroom">
+                <span class="work__card-title">SplaShroom</span>
+              </a>
+          </div>
         </div>
       </div>
     </section>
@@ -371,8 +145,7 @@
               Hello, I'm Elias Claeys, a Belgian student at howest studying Digital 
               Arts and Entertainment Game Development. I love making games and I 
               want to make a career out of it. I am currently looking for an internship
-              from september till december 2027. I have experience with c++, c# and 
-              Unity.
+              from september till december 2027.
             </p>
             <!-- Provide a link to your resume -->
             <a href="mailto:Elias.Claeys@student.howest.be" class="btn">Contact me</a>
@@ -407,7 +180,7 @@
 
       <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
       <p>
-        &copy; 2020 - Template designed & developed by <a href="https://nisar.dev" class="link">Nisar</a>.
+        &copy; Template designed & developed by <a href="https://nisar.dev" class="link">Nisar</a>.
       </p>
     </div>
   </footer>
