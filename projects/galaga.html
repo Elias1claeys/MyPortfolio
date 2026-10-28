@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="../images/Icon.png" />
+
+    <!-- Put your site title here -->
+    <title>
+        Elias Claeys
+    </title>
+
+    <meta name="description" content="Elias Claeys | Game Development student at Howest Kortrijk, looking for an internship">
+    <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+    <meta name="keywords" content="Put your name, skills and some coding keywords" />
+    <link rel="stylesheet" href="../index.css" />
+</head>
+
+<body>
+    <a href="../index.html#work" class="link__text">&larr; Back to projects</a>
+
+    <div class="work__box work__box--page">
+
+        <div class="work__text">
+            <h3>SplaShroom</h3>
+        </div>
+        
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
+                
+            <div class="carousel-inner">
+                <div class="item active">
+                        <img src="../images/Project6/1.png">
+                      </div>
+
+                      <div class="item">
+                        <img src="../images/Project6/2.png">
+                      </div>
+
+                      <div class="item">
+                        <img src="../images/Project6/3.png">
+                      </div>
+
+                      <div class="item">
+                        <img src="../images/Project6/4.png">
+                      </div>
+
+                      <div class="item">
+                        <div class="video-wrapper">
+                          <iframe
+                            src="https://www.youtube.com/embed/4XqFFgfEaaE?enablejsapi=1">
+                          </iframe>
+                        </div>
+                      </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="arrow">&#10094;</span>
+                    <span class="sr-only">Previous</span>
+                </a>
+
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="arrow">&#10095;</span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <div class="work__text">
+            <p>
+                This project started with a very empty game engine. There was no sound implemention, no input system, no component system 
+                and many more missing features. My task was to implement these features myself using the design patterns and techniques I 
+                learned in class, and then use that engine to create a fully functional game. I had to remake Galaga. It is an arcade game 
+                from the 1980s in wich you control a space ship and fight waves of attacking aliens. A challenge I had while making this game 
+                was implementing the weird movement curves that the aliens made. I eventually solved this by using bezier curves, which allowed 
+                me to create smooth and varied flight paths. The enemie also goes trought a lot of different stages when he attacks. It all depends 
+                on the type of enemy and wich attack the game randomly decided to use. I used CMake to manage the project generation and build process.
+                Overall this project deepens my understanding of game engine architecture and improved my C++ programming skills.
+            </p>
+                  <ul class="work__list">
+                    <li>C++</li>
+                    <li>CMake</li>
+                  </ul>
+
+                  <div class="work__links">
+                    <a href="https://github.com/Elias1claeys/2DAE20_Claeys_Elias_GalagaRepo" title="View Source Code" target="_blank">
+                        <img src="../images/github.svg" class="work__code" alt="GitHub">
+                    </a>
+                </div>
+        </div>
+    </div>
+
+  <script src="../index.js"></script>
+</body>
